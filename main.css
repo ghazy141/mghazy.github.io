@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-weight: 600;
+}
+h4 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w3-black {
+  background-color: #181818 !important;
+}
+.star {
+  color: rgb(245, 197, 24);
+}
+.movie {
+  position: relative;
+  z-index: -1;
+}
+.banner {
+  width: 100%;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner {
+    object-fit: cover;
+    height: 300px;
+  }
+}
